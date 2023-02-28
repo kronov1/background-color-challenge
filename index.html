@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change background color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="btn-menu">
+        <ul>
+           <li class="btn-colors"><span><p id="p">Cores</p> <img class="imagem-seta" src="expand_more_FILL0_wght400_GRAD0_opsz48.svg" alt=""></span>
+                <ul class="colors-list">
+                    <li class="red" onclick="vermelho()">Red</li>
+                    <li class="green" onclick="verde()">Green</li>
+                    <li class="blue" onclick="azul()">Blue</li>
+                    <li class="yellow" onclick="amarelo()">Yellow</li>
+                    <li class="Black" onclick="Black()">Black</li>
+                    <li class="Orange" onclick="Orange()">Orange</li>
+                    <li class="Brown" onclick="Brown()">Brown</li>
+                    <li class="Purple" onclick="Purple()">Purple</li>
+                </ul>
+           </li> 
+        </ul>
+    </nav>
+    <footer id="ass">Made by: Bruno in 01:54:36 Hours.
+    </footer>
+    <script>
+        var pCores = document.querySelector('p')
+        var ass = document.getElementById('ass')
+
+        function vermelho() {
+            document.body.style.backgroundColor = '#ff6961'
+            pCores.style.color = 'black'
+            ass.style.color = '#000'
+        }
+        function verde() {
+            document.body.style.backgroundColor = '#77dd77'
+            pCores.style.color = 'black'
+            ass.style.color = '#000'
+        }
+        function azul() {
+            document.body.style.backgroundColor = '#78a2cc'
+            pCores.style.color = 'black'
+            ass.style.color = '#000'
+        }
+        function amarelo() {
+            document.body.style.backgroundColor = '#fdfd92'
+            pCores.style.color = 'black'
+            ass.style.color = '#000'
+        }
+        function Black() {
+            document.body.style.backgroundColor = '#292929'
+            pCores.style.color = '#fff'
+            ass.style.color = '#fff'
+        }
+        function Orange() {
+            document.body.style.backgroundColor = '#ffb347'
+            pCores.style.color = 'black'
+            ass.style.color = '#000'
+        }
+        function Brown() {
+            document.body.style.backgroundColor = '#836953'
+            pCores.style.color = 'black'
+            ass.style.color = '#000'
+        }
+        function Purple() {
+            document.body.style.backgroundColor = '#957dad'
+            pCores.style.color = 'black'
+            ass.style.color = '#000'
+        }
+    </script>
+</body>
+</html>
